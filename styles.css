@@ -452,3 +452,18 @@ h2 {
     padding: 0 0;
   }
 }
+
+.wrapper {
+  max-width: 1200px;
+}
+
+.wrapper .carousel {
+  white-space: nowrap;
+  margin: 3rem auto;
+}
+
+.carousel img {
+  height: 20rem;
+  width: calc(100% / 3);
+  object-fit: cover;
+}
